@@ -68,19 +68,37 @@
           </p>
         </div>
 
-        <div>
-          <h2 class="uppercase font-semibold text-slate-600 mb-4">
-            Tech Stack
-          </h2>
+        <div class="grid md:grid-cols-1 gap-10 mb-12">
+          <div>
+            <h2 class="uppercase font-semibold text-slate-600 mb-4">
+              Tech Stack
+            </h2>
 
-          <div class="flex flex-wrap gap-2">
-            <span
-              v-for="skill in skills"
-              :key="skill"
-              class="px-4 py-2 rounded-full bg-blue-50 border border-blue-100 text-sm"
-            >
-              {{ skill }}
-            </span>
+            <div class="flex flex-wrap gap-2">
+              <span
+                v-for="skill in skills"
+                :key="skill"
+                class="px-4 py-2 rounded-full bg-blue-50 border border-blue-100 text-sm"
+              >
+                {{ skill }}
+              </span>
+            </div>
+          </div>
+
+          <div>
+            <h2 class="uppercase font-semibold text-slate-600 mb-4">
+              Legacy Stack
+            </h2>
+
+            <div class="flex flex-wrap gap-2">
+              <span
+                v-for="skill in legacySkills"
+                :key="skill"
+                class="px-4 py-2 rounded-full bg-blue-50 border border-blue-100 text-sm"
+              >
+                {{ skill }}
+              </span>
+            </div>
           </div>
         </div>
       </div>
@@ -202,6 +220,12 @@ const skills = [
   'REST APIs',
   'MySql',
   'Git',
+]
+
+const legacySkills = [
+  'VB.net',
+  'SQL Server',
+  'Crystal Report',
 ]
 
 const projects = [
