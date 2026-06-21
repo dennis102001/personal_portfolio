@@ -7,26 +7,29 @@
       class="max-w-6xl mx-auto bg-white rounded-[2rem] shadow-xl p-8 md:p-10"
     >
       <!-- Hero -->
-      <div
-        class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-10"
-      >
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-10">
         <div>
           <h1 class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-slate-900 to-blue-900 bg-clip-text text-transparent">
             Dennis Bedaña
           </h1>
 
           <div class="inline-block mt-3 px-4 py-1 rounded-full bg-blue-50 border border-blue-100 text-blue-900 text-sm font-semibold">
-            💻 Junior Full-Stack Developer
+            💻 Junior Full-Stack Web Developer
           </div>
 
           <p class="mt-4 max-w-lg text-slate-700">
-            Building clean, functional web apps with a focus on user experience
-            and modern JavaScript.
+            Junior Full-Stack Developer building modern, user-friendly web applications with Laravel and Vue.js.
           </p>
         </div>
 
         <div class="flex items-center gap-3 px-6 py-3 rounded-full bg-blue-50 border border-blue-100">
-          📍 Remote · Open to Work
+          <div v-if="openToWork">
+            📍 Remote · Open to Work
+          </div>
+
+          <div v-else>
+            📍 Philippines · Junior Full-Stack Developer
+          </div>
         </div>
       </div>
 
@@ -47,7 +50,7 @@
         </a>
 
         <a href="#" class="hover:text-blue-900">
-          📞 +639513754423
+          📞 +63 9513754423
         </a>
       </div>
 
@@ -101,6 +104,7 @@
             </div>
           </div>
         </div>
+
       </div>
 
       <!-- Projects -->
@@ -186,7 +190,7 @@
                 B.S. Information Technology
               </h3>
               <p class="text-slate-500">
-                Sultan Kudarat State University · 2024
+                Sultan Kudarat State University · Graduated 2024
               </p>
             </div>
 
@@ -211,41 +215,45 @@
 </template>
 
 <script setup>
+const openToWork = true;
+
 const skills = [
   'PHP',
   'Laravel',
-  'JavaScript',
+  'JavaScript (ES6+)',
   'Vue.js',
   'Tailwind CSS',
   'REST APIs',
-  'MySql',
+  'MySQL',
   'Git',
+  'Composer', 
+  'NPM',      
 ]
 
 const legacySkills = [
-  'VB.net',
+  'VB.NET',
   'SQL Server',
-  'Crystal Report',
+  'SAP Crystal Reports',
 ]
 
 const projects = [
   {
     title: 'ChatTayo',
     description:
-      'Real-time messaging web application.',
-    tags: ['Vue.js', 'Laravel', 'MySql', 'Laravel Reverb', 'Laravel Echo', 'Tailwind CSS']
+      'Real-time messaging app with instant delivery, user presence, and persistent chat history. Built with Laravel Reverb (WebSockets) and Vue.js.',
+    tags: ['Vue.js', 'Laravel', 'MySQL', 'Laravel Reverb', 'Laravel Echo', 'Tailwind CSS']
   },
   {
     title: 'Inventory Management System',
     description:
-      'Inventory management system with status tracking for purchase and sales orders.',
-    tags: ['Vue.js', 'Laravel', 'MySql', 'Chart.js', 'Tailwind CSS']
+      'Inventory system with stock monitoring, purchase orders, and sales tracking. Includes Chart.js dashboards for inventory trends and status analytics.',
+    tags: ['Vue.js', 'Laravel', 'MySQL', 'Chart.js', 'Tailwind CSS']
   },
   {
     title: 'ExpenseTracker',
     description:
-      'Personal expense tracker developed using custom MVC architecture',
-    tags: ['PHP', 'JavaScript', 'MySql', 'Tailwind CSS']
+      'Personal finance tracker built with custom MVC architecture. Features CRUD operations, category filtering, and monthly summary reports.',
+    tags: ['PHP', 'JavaScript', 'MySQL', 'Tailwind CSS']
   }
 ]
 </script>
