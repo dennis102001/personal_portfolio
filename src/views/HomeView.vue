@@ -71,7 +71,7 @@
           </p>
         </div>
 
-        <div class="grid md:grid-cols-1 gap-10 mb-12">
+        <div class="grid md:grid-cols-1 gap-4">
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
               Tech Stack
@@ -113,7 +113,7 @@
           Featured Projects
         </h2>
 
-        <div class="grid md:grid-cols-3 gap-6">
+        <div class="grid lg:grid-cols-3 gap-6">
           <div
             v-for="project in projects"
             :key="project.title"
@@ -146,7 +146,7 @@
       </div>
 
       <!-- Experience & Education -->
-      <div class="grid md:grid-cols-2 gap-10">
+      <div class="grid md:grid-cols-1 gap-10">
         <div>
           <h2 class="uppercase font-semibold text-slate-600 mb-4">
             Experience
