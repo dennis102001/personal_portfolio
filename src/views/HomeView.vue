@@ -54,52 +54,116 @@
         </a>
       </div>
 
-      <!-- About & Skills -->
+      <!-- About & Experience -->
       <div class="grid md:grid-cols-2 gap-10 mb-12">
-        <div>
-          <h2 class="uppercase font-semibold text-slate-600 mb-4">
-            About
-          </h2>
+        <!-- About & Skills -->
+        <div class="flex flex-col gap-10">
 
-          <p class="text-slate-700 mb-4">
-            Hi, I'm Dennis, a Junior Full-Stack Web Developer passionate about building clean, functional, and user-friendly web applications. I enjoy turning ideas into real projects using Laravel, Vue.js, and Tailwind CSS, with a focus on creating simple and modern user experiences.
-          </p>
-
-          <p class="text-slate-700">
-            I continuously improve my skills by building personal projects and learning new technologies, and I'm currently open to opportunities where I can grow as a developer and contribute to meaningful projects.
-          </p>
-        </div>
-
-        <div class="grid md:grid-cols-1 gap-4">
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
-              Tech Stack
+              About
             </h2>
 
-            <div class="flex flex-wrap gap-2">
-              <span
-                v-for="skill in skills"
-                :key="skill"
-                class="px-4 py-2 rounded-full bg-blue-50 border border-blue-100 text-sm"
-              >
-                {{ skill }}
-              </span>
+            <p class="text-slate-700 mb-4">
+              Hi, I'm Dennis, a Junior Full-Stack Web Developer passionate about building clean, functional, and user-friendly web applications. I enjoy turning ideas into real projects using Laravel, Vue.js, and Tailwind CSS, with a focus on creating simple and modern user experiences.
+            </p>
+
+            <p class="text-slate-700">
+              I continuously improve my skills by building personal projects and learning new technologies, and I'm currently open to opportunities where I can grow as a developer and contribute to meaningful projects.
+            </p>
+          </div>
+
+          <div>
+            <h2 class="uppercase font-semibold text-slate-600 mb-4">
+              Tech stack
+            </h2>
+
+            <div class="grid grid-cols-1 gap-4">
+              <div>
+                <h2 class="uppercase font-semibold text-sm text-slate-600 mb-2">
+                  Core
+                </h2>
+
+                <div class="flex flex-wrap gap-2">
+                  <span
+                    v-for="skill in skills"
+                    :key="skill"
+                    class="px-4 py-2 rounded-full bg-blue-50 border border-blue-100 text-sm"
+                  >
+                    {{ skill }}
+                  </span>
+                </div>
+              </div>
+
+              <div>
+                <h2 class="uppercase font-semibold text-sm text-slate-600 mb-2">
+                  Legacy Stack
+                </h2>
+
+                <div class="flex flex-wrap gap-2">
+                  <span
+                    v-for="skill in legacySkills"
+                    :key="skill"
+                    class="px-4 py-2 rounded-full bg-blue-50 border border-blue-100 text-sm"
+                  >
+                    {{ skill }}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Experience & Education -->
+        <div class="flex flex-col gap-10">
+          <div>
+            <h2 class="uppercase font-semibold text-slate-600 mb-4">
+              Experience
+            </h2>
+
+            <div class="space-y-4">
+              <div>
+                <h3 class="font-semibold">
+                  Computer Programmer · (Part-time)
+                </h3>
+                <p class="text-sm text-slate-500">2024–2025</p>
+                <ul class="list-disc list-inside text-slate-700 space-y-1 mt-1">
+                  <li>Collaborated with a team to develop a procurement and inventory management system</li>
+                  <li>Built desktop application using VB.NET, SQL Server, and Crystal Reports</li>
+                  <li>Currently transitioning to modern web development with Laravel + Vue.js and Tailwind CSS</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 class="font-semibold">
+                  Intern
+                </h3>
+                <p class="text-sm text-slate-500">2023–2024</p>
+                <ul class="list-disc list-inside text-slate-700 space-y-1 mt-1">
+                  <li>Worked with a team to build a field findings and promissory note management system</li>
+                  <li>Developed using VB.NET, SQL Server, and Crystal Reports</li>
+                  <li>Gained experience in desktop development and team collaboration</li>
+                </ul>
+              </div>
             </div>
           </div>
 
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
-              Legacy Stack
+              Education
             </h2>
 
-            <div class="flex flex-wrap gap-2">
-              <span
-                v-for="skill in legacySkills"
-                :key="skill"
-                class="px-4 py-2 rounded-full bg-blue-50 border border-blue-100 text-sm"
-              >
-                {{ skill }}
-              </span>
+            <div class="space-y-4">
+              <div>
+                <h3 class="font-semibold">
+                  B.S. Information Technology
+                </h3>
+                <p class="text-slate-500">
+                  Sultan Kudarat State University · Graduated 2024
+                </p>
+              </div>
+
             </div>
           </div>
         </div>
@@ -140,59 +204,6 @@
               <a href="#">Code</a>
               <a href="#">Demo</a>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Experience & Education -->
-      <div class="grid md:grid-cols-1 gap-10">
-        <div>
-          <h2 class="uppercase font-semibold text-slate-600 mb-4">
-            Experience
-          </h2>
-
-          <div class="space-y-4">
-            <div>
-              <h3 class="font-semibold">
-                Computer Programmer · (Part-time)
-              </h3>
-              <p class="text-sm text-slate-500">2024–2025</p>
-              <ul class="list-disc list-inside text-slate-700 space-y-1 mt-1">
-                <li>Collaborated with a team to develop a procurement and inventory management system</li>
-                <li>Built desktop application using VB.NET, SQL Server, and Crystal Reports</li>
-                <li>Currently transitioning to modern web development with Laravel + Vue.js and Tailwind CSS</li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 class="font-semibold">
-                Intern
-              </h3>
-              <p class="text-sm text-slate-500">2023–2024</p>
-              <ul class="list-disc list-inside text-slate-700 space-y-1 mt-1">
-                <li>Worked with a team to build a field findings and promissory note management system</li>
-                <li>Developed using VB.NET, SQL Server, and Crystal Reports</li>
-                <li>Gained experience in desktop development and team collaboration</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <h2 class="uppercase font-semibold text-slate-600 mb-4">
-            Education
-          </h2>
-
-          <div class="space-y-4">
-            <div>
-              <h3 class="font-semibold">
-                B.S. Information Technology
-              </h3>
-              <p class="text-slate-500">
-                Sultan Kudarat State University · Graduated 2024
-              </p>
-            </div>
-
           </div>
         </div>
       </div>
