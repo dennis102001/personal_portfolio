@@ -62,12 +62,11 @@
           </h2>
 
           <p class="text-slate-700 mb-4">
-            Hi, I'm Dennis — a junior full-stack developer passionate about
-            turning ideas into polished web experiences.
+            Hi, I'm Dennis, a Junior Full-Stack Web Developer passionate about building clean, functional, and user-friendly web applications. I enjoy turning ideas into real projects using Laravel, Vue.js, and Tailwind CSS, with a focus on creating simple and modern user experiences.
           </p>
 
           <p class="text-slate-700">
-            Currently exploring more about web development and making personal projects.
+            I continuously improve my skills by building personal projects and learning new technologies, and I'm currently open to opportunities where I can grow as a developer and contribute to meaningful projects.
           </p>
         </div>
 
