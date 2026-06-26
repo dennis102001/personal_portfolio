@@ -54,7 +54,6 @@
         </a>
       </div>
 
-      <!-- About & Experience -->
       <div class="grid md:grid-cols-2 gap-10 mb-12">
         <!-- About & Skills -->
         <div class="flex flex-col gap-10">
@@ -168,6 +167,23 @@
                 </p>
               </div>
 
+            </div>
+          </div>
+
+          <!-- Certifications -->
+          <div>
+            <h2 class="uppercase font-semibold text-slate-600 mb-4">
+              Certifications & Eligibility
+            </h2>
+
+            <div class="p-5 rounded-2xl border border-slate-200 bg-slate-50">
+              <h3 class="font-semibold text-slate-900">
+                Civil Service Professional Eligibility
+              </h3>
+
+              <p class="text-sm text-slate-500 mt-1">
+                Civil Service Commission, Philippines · 2025
+              </p>
             </div>
           </div>
         </div>
