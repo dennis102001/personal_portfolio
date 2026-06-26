@@ -128,10 +128,11 @@
                   Computer Programmer · (Part-time)
                 </h3>
                 <p class="text-sm text-slate-500">2024–2025</p>
-                <ul class="list-disc list-inside text-slate-700 space-y-1 mt-1">
-                  <li>Collaborated with a team to develop a procurement and inventory management system</li>
-                  <li>Built desktop application using VB.NET, SQL Server, and Crystal Reports</li>
-                  <li>Currently transitioning to modern web development with Laravel + Vue.js and Tailwind CSS</li>
+                <ul class="list-disc list-outside ml-5 text-slate-700 space-y-1 mt-1">
+                  <li>Collaborated with a team to develop a procurement and inventory management system.</li>
+                  <li>Built a desktop application using VB.NET, SQL Server, and Crystal Reports.</li>
+                  <li>Collaborated on system enhancements and bug fixes.</li>
+
                 </ul>
               </div>
 
@@ -140,10 +141,10 @@
                   Intern
                 </h3>
                 <p class="text-sm text-slate-500">2023–2024</p>
-                <ul class="list-disc list-inside text-slate-700 space-y-1 mt-1">
-                  <li>Worked with a team to build a field findings and promissory note management system</li>
-                  <li>Developed using VB.NET, SQL Server, and Crystal Reports</li>
-                  <li>Gained experience in desktop development and team collaboration</li>
+                <ul class="list-disc list-outside ml-5 text-slate-700 space-y-1 mt-1">
+                  <li>Collaborated with a team to develop a field findings and promissory note management system.</li>
+                  <li>Built a desktop application using VB.NET, SQL Server, and Crystal Reports.</li>
+                  <li>Assisted in system enhancements and bug fixes.</li>
                 </ul>
               </div>
             </div>
