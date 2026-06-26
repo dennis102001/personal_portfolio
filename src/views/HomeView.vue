@@ -117,7 +117,7 @@
 
         </div>
 
-        <!-- Experience & Education -->
+        <!-- Experiences, Education, & Certifications -->
         <div class="flex flex-col gap-10">
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
@@ -127,27 +127,22 @@
             <div class="space-y-4">
               <div>
                 <h3 class="font-semibold">
-                  Computer Programmer · (Part-time)
+                  Computer Programmer · Part-time <span class="font-normal text-slate-700">(2024–2025)</span>
                 </h3>
-                <p class="text-sm text-slate-500">2024–2025</p>
-                <ul class="list-disc list-outside ml-5 text-slate-700 space-y-1 mt-1">
-                  <li>Collaborated with a team to develop a procurement and inventory management system.</li>
-                  <li>Built a desktop application using VB.NET, SQL Server, and Crystal Reports.</li>
-                  <li>Collaborated on system enhancements and bug fixes.</li>
-
-                </ul>
+                <p class="text-slate-700">
+                  Contributed to the development of a procurement and inventory management system using VB.NET, SQL Server, and Crystal Reports. 
+                  Assisted with feature enhancements and bug fixes.
+                </p>
               </div>
 
               <div>
                 <h3 class="font-semibold">
-                  Intern
+                  Intern <span class="font-normal text-slate-700">(2023–2024)</span>
                 </h3>
-                <p class="text-sm text-slate-500">2023–2024</p>
-                <ul class="list-disc list-outside ml-5 text-slate-700 space-y-1 mt-1">
-                  <li>Collaborated with a team to develop a field findings and promissory note management system.</li>
-                  <li>Built a desktop application using VB.NET, SQL Server, and Crystal Reports.</li>
-                  <li>Assisted in system enhancements and bug fixes.</li>
-                </ul>
+                <p class="text-slate-700">
+                  Collaborated on the development of a field findings and promissory note management system using VB.NET, SQL Server, 
+                  and Crystal Reports. Supported system enhancements and bug fixes.
+                </p>
               </div>
             </div>
           </div>
