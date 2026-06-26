@@ -80,9 +80,9 @@
 
             <div class="grid grid-cols-1 gap-4">
               <div>
-                <h2 class="uppercase font-semibold text-sm text-slate-600 mb-2">
+                <h3 class="font-semibold mb-2">
                   Core
-                </h2>
+                </h3>
 
                 <div class="flex flex-wrap gap-2">
                   <span
@@ -96,9 +96,9 @@
               </div>
 
               <div>
-                <h2 class="uppercase font-semibold text-sm text-slate-600 mb-2">
+                <h3 class="font-semibold mb-2">
                   Legacy Stack
-                </h2>
+                </h3>
 
                 <div class="flex flex-wrap gap-2">
                   <span
