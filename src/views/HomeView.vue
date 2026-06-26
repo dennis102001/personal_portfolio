@@ -82,7 +82,7 @@
 
             <div class="grid grid-cols-1 gap-4">
               <div>
-                <h3 class="font-semibold mb-2">
+                <h3 class="font-semibold text-slate-900 mb-2">
                   Core
                 </h3>
 
@@ -90,7 +90,7 @@
                   <span
                     v-for="skill in skills"
                     :key="skill"
-                    class="px-4 py-2 rounded-full bg-blue-50 border border-blue-100 text-sm"
+                    class="px-4 py-2 rounded-full bg-blue-50 border border-blue-100 text-sm text-slate-700"
                   >
                     {{ skill }}
                   </span>
@@ -98,7 +98,7 @@
               </div>
 
               <div>
-                <h3 class="font-semibold mb-2">
+                <h3 class="font-semibold text-slate-900 mb-2">
                   Legacy Stack
                 </h3>
 
@@ -106,7 +106,7 @@
                   <span
                     v-for="skill in legacySkills"
                     :key="skill"
-                    class="px-4 py-2 rounded-full bg-blue-50 border border-blue-100 text-sm"
+                    class="px-4 py-2 rounded-full bg-blue-50 border border-blue-100 text-sm text-slate-700"
                   >
                     {{ skill }}
                   </span>
@@ -126,8 +126,10 @@
 
             <div class="space-y-4">
               <div>
-                <h3 class="font-semibold">
-                  Computer Programmer · Part-time <span class="font-normal text-slate-700">(2024–2025)</span>
+                <h3 class="font-semibold text-slate-900">
+                  Computer Programmer · 
+                  <span class="font-normal">Part-time </span>
+                  <span class="font-normal text-slate-500">(2024–2025)</span>
                 </h3>
                 <p class="text-slate-700">
                   Contributed to the development of a procurement and inventory management system using VB.NET, SQL Server, and Crystal Reports. 
@@ -136,8 +138,8 @@
               </div>
 
               <div>
-                <h3 class="font-semibold">
-                  Intern <span class="font-normal text-slate-700">(2023–2024)</span>
+                <h3 class="font-semibold text-slate-900">
+                  Intern <span class="font-normal text-slate-500">(2023–2024)</span>
                 </h3>
                 <p class="text-slate-700">
                   Collaborated on the development of a field findings and promissory note management system using VB.NET, SQL Server, 
@@ -154,7 +156,7 @@
 
             <div class="space-y-4">
               <div>
-                <h3 class="font-semibold">
+                <h3 class="font-semibold text-slate-900">
                   B.S. Information Technology
                 </h3>
                 <p class="text-slate-500">
