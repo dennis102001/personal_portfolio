@@ -40,22 +40,22 @@
       <div
         class="flex flex-wrap gap-6 pb-8 mb-10 border-b border-slate-200 text-sm"
       >
-        <a href="#" class="hover:text-blue-900">
+        <a href="mailto:dennisbed1001@gmail.com" class="hover:text-blue-900">
           <i class="fa-solid fa-envelope mr-1"></i>
           dennisbed1001@gmail.com
         </a>
 
-        <a href="#" class="hover:text-blue-900">
+        <a href="https://github.com/dennis102001" target="_blank" rel="noopener noreferrer" class="hover:text-blue-900">
           <i class="fa-brands fa-github mr-1"></i>
           github.com/dennis102001
         </a>
 
-        <a href="#" class="hover:text-blue-900">
+        <!-- <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" class="hover:text-blue-900">
           <i class="fa-brands fa-linkedin-in mr-1"></i>
           linkedin.com/in/dennis
-        </a>
+        </a> -->
 
-        <a href="#" class="hover:text-blue-900">
+        <a href="tel:+639513754423" class="hover:text-blue-900">
           <i class="fa-solid fa-phone-flip mr-1"></i>
           +63 9513754423
         </a>
