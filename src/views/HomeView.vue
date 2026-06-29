@@ -231,7 +231,7 @@
             </div>
 
             <div class="flex gap-4 text-sm text-blue-900">
-              <a href="#">
+              <a :href="project.link" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-github mr-1"></i>
                 Code
               </a>
@@ -288,19 +288,22 @@ const projects = [
     title: 'ChatTayo',
     description:
       'Real-time messaging app with instant delivery, user presence, and persistent chat history. Built with Laravel Reverb (WebSockets) and Vue.js.',
-    tags: ['Vue.js', 'Laravel', 'MySQL', 'Laravel Reverb', 'Laravel Echo', 'Tailwind CSS']
+    tags: ['Vue.js', 'Laravel', 'MySQL', 'Laravel Reverb', 'Laravel Echo', 'Tailwind CSS'],
+    link: "https://github.com/dennis102001/chat-tayo"
   },
   {
     title: 'Inventory Management System',
     description:
       'Inventory system with stock monitoring, purchase orders, and sales tracking. Includes Chart.js dashboards for inventory trends and status analytics.',
-    tags: ['Vue.js', 'Laravel', 'MySQL', 'Chart.js', 'Tailwind CSS']
+    tags: ['Vue.js', 'Laravel', 'MySQL', 'Chart.js', 'Tailwind CSS'],
+    link: "https://github.com/dennis102001/simple_ims_spa"
   },
   {
-    title: 'ExpenseTracker',
+    title: 'Expense Tracker',
     description:
       'Personal finance tracker built with custom MVC architecture. Features CRUD operations, category filtering, and monthly summary reports.',
-    tags: ['PHP', 'JavaScript', 'MySQL', 'Tailwind CSS']
+    tags: ['PHP', 'JavaScript', 'MySQL', 'Tailwind CSS'],
+    link: "https://github.com/dennis102001/expense_app"
   }
 ]
 </script>
