@@ -13,7 +13,7 @@
             Dennis Bedaña
           </h1>
 
-          <div class="inline-block mt-3 px-4 py-1 rounded-full bg-blue-50 border border-blue-100 text-blue-900 text-sm font-semibold">
+          <div class="inline-block mt-3 px-4 py-1 rounded-full bg-blue-50 border border-blue-100 text-slate-700 text-sm font-semibold">
             <i class="fa-solid fa-code mr-2"></i>
              Junior Full-Stack Web Developer
           </div>
@@ -23,14 +23,14 @@
           </p>
         </div>
 
-        <div class="flex items-center gap-3 px-6 py-3 rounded-full bg-blue-50 border border-blue-100">
+        <div class="flex w-fit items-center gap-3 px-6 py-3 rounded-full bg-blue-50 border border-blue-100 text-slate-800">
           <div v-if="openToWork">
-            <i class="fa-solid fa-map-pin"></i>
+            <i class="fa-solid fa-map-pin mr-1 text-xl"></i>
             Remote · Open to Work
           </div>
 
           <div v-else>
-            <i class="fa-solid fa-map-pin"></i>
+            <i class="fa-solid fa-map-pin mr-1 text-xl"></i>
             Philippines · Junior Full-Stack Developer
           </div>
         </div>
@@ -73,8 +73,10 @@
 
             <p class="text-slate-700 mb-4">
               Hi, I'm Dennis, a Junior Full-Stack Web Developer passionate about building clean, functional, 
-              and user-friendly web applications. I transitioned from desktop development with VB.NET and SQL 
-              Server to modern web technologies, focusing on Laravel, Vue.js, and Tailwind CSS.
+              and user-friendly web applications. I transitioned from desktop development with 
+              <span class="highlight">VB.NET</span> and <span class="highlight">SQL Server</span>
+              to modern web technologies, focusing on <span class="highlight">Laravel</span>, 
+              <span class="highlight">Vue.js</span>, and <span class="highlight">Tailwind CSS</span>.
             </p>
 
             <p class="text-slate-700">
@@ -224,7 +226,7 @@
               <span
                 v-for="tag in project.tags"
                 :key="tag"
-                class="px-3 py-1 rounded-full bg-blue-100 text-xs font-semibold"
+                class="px-3 py-1 rounded-full bg-blue-100 text-xs font-semibold text-slate-700"
               >
                 {{ tag }}
               </span>
