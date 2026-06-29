@@ -14,7 +14,8 @@
           </h1>
 
           <div class="inline-block mt-3 px-4 py-1 rounded-full bg-blue-50 border border-blue-100 text-blue-900 text-sm font-semibold">
-            💻 Junior Full-Stack Web Developer
+            <i class="fa-solid fa-code mr-2"></i>
+             Junior Full-Stack Web Developer
           </div>
 
           <p class="mt-4 max-w-lg text-slate-700">
@@ -24,11 +25,13 @@
 
         <div class="flex items-center gap-3 px-6 py-3 rounded-full bg-blue-50 border border-blue-100">
           <div v-if="openToWork">
-            📍 Remote · Open to Work
+            <i class="fa-solid fa-map-pin"></i>
+            Remote · Open to Work
           </div>
 
           <div v-else>
-            📍 Philippines · Junior Full-Stack Developer
+            <i class="fa-solid fa-map-pin"></i>
+            Philippines · Junior Full-Stack Developer
           </div>
         </div>
       </div>
@@ -38,19 +41,23 @@
         class="flex flex-wrap gap-6 pb-8 mb-10 border-b border-slate-200 text-sm"
       >
         <a href="#" class="hover:text-blue-900">
-          📧 dennisbed1001@gmail.com
+          <i class="fa-solid fa-envelope mr-1"></i>
+          dennisbed1001@gmail.com
         </a>
 
         <a href="#" class="hover:text-blue-900">
-          🐙 github.com/dennis102001
+          <i class="fa-brands fa-github mr-1"></i>
+          github.com/dennis102001
         </a>
 
         <a href="#" class="hover:text-blue-900">
-          💼 linkedin/in/dennis
+          <i class="fa-brands fa-linkedin-in mr-1"></i>
+          linkedin.com/in/dennis
         </a>
 
         <a href="#" class="hover:text-blue-900">
-          📞 +63 9513754423
+          <i class="fa-solid fa-phone-flip mr-1"></i>
+          +63 9513754423
         </a>
       </div>
 
@@ -60,6 +67,7 @@
 
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
+              <i class="fa-solid fa-user-astronaut mr-1"></i>
               About
             </h2>
 
@@ -77,6 +85,7 @@
 
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
+              <i class="fa-solid fa-laptop-code mr-1"></i>
               Tech stack
             </h2>
 
@@ -121,6 +130,7 @@
         <div class="flex flex-col gap-10">
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
+              <i class="fa-solid fa-briefcase mr-1"></i>
               Experience
             </h2>
 
@@ -151,6 +161,7 @@
 
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
+              <i class="fa-solid fa-graduation-cap mr-1"></i>
               Education
             </h2>
 
@@ -170,6 +181,7 @@
           <!-- Certifications -->
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
+              <i class="fa-solid fa-id-card mr-1"></i>
               Certifications & Eligibility
             </h2>
 
@@ -190,6 +202,7 @@
       <!-- Projects -->
       <div class="mb-12">
         <h2 class="uppercase font-semibold text-slate-600 mb-6">
+          <i class="fa-solid fa-folder-open mr-1"></i>
           Featured Projects
         </h2>
 
@@ -218,8 +231,15 @@
             </div>
 
             <div class="flex gap-4 text-sm text-blue-900">
-              <a href="#">Code</a>
-              <a href="#">Demo</a>
+              <a href="#">
+                <i class="fa-brands fa-github mr-1"></i>
+                Code
+              </a>
+
+              <a href="#">
+                <i class="fa-solid fa-globe mr-1"></i>
+                Demo
+              </a>
             </div>
           </div>
         </div>
