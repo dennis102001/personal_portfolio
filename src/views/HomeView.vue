@@ -2,10 +2,11 @@
 </script>
 
 <template>
-  <div class="min-h-screen bg-slate-50 p-6">
+  
+  <div class="min-h-screen bg-slate-50 p-6 pt-20">
     <div
       class="max-w-6xl mx-auto bg-white rounded-[2rem] shadow-xl p-8 md:p-10"
-    >
+    >      
       <!-- Hero -->
       <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-10">
         <div>
@@ -37,9 +38,7 @@
       </div>
 
       <!-- Contact -->
-      <div
-        class="flex flex-wrap gap-6 pb-8 mb-10 border-b border-slate-200 text-sm"
-      >
+      <section id="contact" class="scroll-mt-20 flex flex-wrap gap-6 pb-8 mb-10 border-b border-slate-200 text-sm">
         <a href="mailto:dennisbed1001@gmail.com" class="hover:text-blue-900">
           <i class="fa-solid fa-envelope mr-1"></i>
           dennisbed1001@gmail.com
@@ -59,11 +58,11 @@
           <i class="fa-solid fa-phone-flip mr-1"></i>
           +63 9513754423
         </a>
-      </div>
+      </section>
 
       <div class="grid md:grid-cols-2 gap-10 mb-12">
         <!-- About & Skills -->
-        <div class="flex flex-col gap-10">
+        <section id="about" class="scroll-mt-20 flex flex-col gap-10">
 
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
@@ -126,10 +125,10 @@
             </div>
           </div>
 
-        </div>
+        </section>
 
         <!-- Experiences, Education, & Certifications -->
-        <div class="flex flex-col gap-10">
+        <section id="experience" class="scroll-mt-20 flex flex-col gap-10">
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
               <i class="fa-solid fa-briefcase mr-1"></i>
@@ -197,12 +196,12 @@
               </p>
             </div>
           </div>
-        </div>
+        </section>
 
       </div>
 
       <!-- Projects -->
-      <div class="mb-12">
+      <section id="projects" class="mb-12 scroll-mt-20">
         <h2 class="uppercase font-semibold text-slate-600 mb-6">
           <i class="fa-solid fa-folder-open mr-1"></i>
           Featured Projects
@@ -245,7 +244,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- Footer -->
       <div

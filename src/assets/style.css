@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+html {
+  @apply scroll-smooth
+}
 
 a{
     @apply text-slate-700 hover:text-blue-900 border-transparent  hover:border-b-blue-900 border-b-1
