@@ -3,9 +3,9 @@
 
 <template>
   
-  <div class="min-h-screen bg-slate-50 p-6 pt-20">
+  <div class="min-h-screen bg-white md:bg-slate-50 pt-16 pb-10 sm:px-4 md:px-6 md:pt-20 md:pb-6">
     <div
-      class="max-w-6xl mx-auto bg-white rounded-[2rem] shadow-xl p-8 md:p-10"
+      class="max-w-6xl mx-auto bg-white rounded-[2rem] md:shadow-xl p-8 md:p-10"
     >      
       <!-- Hero -->
       <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-10">
