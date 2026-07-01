@@ -4,12 +4,12 @@ html {
   @apply scroll-smooth
 }
 
-a{
+.link{
     @apply text-slate-700 hover:text-blue-900 border-transparent  hover:border-b-blue-900 border-b-1
 }
 
-i{
-    @apply text-blue-950
+.icon-link{
+    @apply rounded-full size-6 grid place-items-center text-blue-950 bg-blue-100 hover:text-white hover:bg-blue-950 hover:-translate-y-1 transition-all
 }
 
 .highlight {

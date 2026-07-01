@@ -15,8 +15,8 @@
           </h1>
 
           <div class="inline-block mt-3 px-4 py-1 rounded-full bg-blue-50 border border-blue-100 text-slate-700 text-sm font-semibold">
-            <i class="fa-solid fa-code mr-2"></i>
-             Junior Full-Stack Web Developer
+            <i class="fa-solid fa-code mr-2 text-blue-950"></i>
+            Junior Full-Stack Web Developer
           </div>
 
           <p class="mt-4 max-w-lg text-slate-700">
@@ -26,12 +26,12 @@
 
         <div class="flex w-fit items-center gap-3 px-6 py-3 rounded-full bg-blue-50 border border-blue-100 text-slate-800">
           <div v-if="openToWork">
-            <i class="fa-solid fa-map-pin mr-1 text-xl"></i>
+            <i class="fa-solid fa-map-pin mr-1 text-xl text-blue-950"></i>
             Remote · Open to Work
           </div>
 
           <div v-else>
-            <i class="fa-solid fa-map-pin mr-1 text-xl"></i>
+            <i class="fa-solid fa-map-pin mr-1 text-xl text-blue-950"></i>
             Philippines · Junior Full-Stack Developer
           </div>
         </div>
@@ -39,23 +39,23 @@
 
       <!-- Contact -->
       <section id="contact" class="scroll-mt-20 flex flex-wrap gap-6 pb-8 mb-10 border-b border-slate-200 text-sm">
-        <a href="mailto:dennisbed1001@gmail.com" class="hover:text-blue-900">
-          <i class="fa-solid fa-envelope mr-1"></i>
+        <a href="mailto:dennisbed1001@gmail.com" class="link">
+          <i class="fa-solid fa-envelope mr-1 text-blue-950"></i>
           dennisbed1001@gmail.com
         </a>
 
-        <a href="https://github.com/dennis102001" target="_blank" rel="noopener noreferrer" class="hover:text-blue-900">
-          <i class="fa-brands fa-github mr-1"></i>
+        <a href="https://github.com/dennis102001" target="_blank" rel="noopener noreferrer" class="link">
+          <i class="fa-brands fa-github mr-1 text-blue-950"></i>
           github.com/dennis102001
         </a>
 
-        <!-- <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" class="hover:text-blue-900">
-          <i class="fa-brands fa-linkedin-in mr-1"></i>
+        <!-- <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" class="link">
+          <i class="fa-brands fa-linkedin-in mr-1 text-blue-950"></i>
           linkedin.com/in/dennis
         </a> -->
 
-        <a href="tel:+639513754423" class="hover:text-blue-900">
-          <i class="fa-solid fa-phone-flip mr-1"></i>
+        <a href="tel:+639513754423" class="link">
+          <i class="fa-solid fa-phone-flip mr-1 text-blue-950"></i>
           +63 9513754423
         </a>
       </section>
@@ -66,7 +66,7 @@
 
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
-              <i class="fa-solid fa-user-astronaut mr-1"></i>
+              <i class="fa-solid fa-user-astronaut mr-1 text-blue-950"></i>
               About
             </h2>
 
@@ -86,7 +86,7 @@
 
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
-              <i class="fa-solid fa-laptop-code mr-1"></i>
+              <i class="fa-solid fa-laptop-code mr-1 text-blue-950"></i>
               Tech stack
             </h2>
 
@@ -131,7 +131,7 @@
         <section id="experience" class="scroll-mt-20 flex flex-col gap-10">
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
-              <i class="fa-solid fa-briefcase mr-1"></i>
+              <i class="fa-solid fa-briefcase mr-1 text-blue-950"></i>
               Experience
             </h2>
 
@@ -162,7 +162,7 @@
 
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
-              <i class="fa-solid fa-graduation-cap mr-1"></i>
+              <i class="fa-solid fa-graduation-cap mr-1 text-blue-950"></i>
               Education
             </h2>
 
@@ -182,7 +182,7 @@
           <!-- Certifications -->
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
-              <i class="fa-solid fa-id-card mr-1"></i>
+              <i class="fa-solid fa-id-card mr-1 text-blue-950"></i>
               Certifications & Eligibility
             </h2>
 
@@ -203,7 +203,7 @@
       <!-- Projects -->
       <section id="projects" class="mb-12 scroll-mt-20">
         <h2 class="uppercase font-semibold text-slate-600 mb-6">
-          <i class="fa-solid fa-folder-open mr-1"></i>
+          <i class="fa-solid fa-folder-open mr-1 text-blue-950"></i>
           Featured Projects
         </h2>
 
@@ -232,13 +232,13 @@
             </div>
 
             <div class="flex gap-4 text-sm text-blue-900">
-              <a :href="project.link" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-github mr-1"></i>
+              <a :href="project.link" target="_blank" rel="noopener noreferrer" class="link">
+                <i class="fa-brands fa-github mr-1 text-blue-950"></i>
                 Code
               </a>
 
-              <a href="#">
-                <i class="fa-solid fa-globe mr-1"></i>
+              <a href="#" class="link">
+                <i class="fa-solid fa-globe mr-1 text-blue-950"></i>
                 Demo
               </a>
             </div>
@@ -250,12 +250,31 @@
       <div
         class="mt-12 pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between gap-4 text-slate-500"
       >
-        <p>Crafted with ❤️ · 2026</p>
+        <div class="flex flex-col">
+          <div class="flex flex-row items-center">
+            <i class="fa-regular fa-copyright text-xs mr-1 mt-[2px] text-blue-950"></i>
+            <p class="text-slate-700">2026 · Dennis Bedaña</p>
+          </div>
+          <div class="flex flex-row items-center">
+            <i class="fa-solid fa-code text-xs mr-2 text-blue-950"></i>
+            <p class="text-xs">Built with Vue.js and Tailwind CSS</p>
+          </div>
+        </div>
+        
 
-        <div class="flex gap-4">
-          <a href="#">GitHub</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Resume</a>
+        <div class="flex gap-3">
+          <a href="https://github.com/dennis102001" target="_blank" rel="noopener noreferrer" class="icon-link">
+            <i class="fa-brands fa-github text-sm"></i>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="icon-link">
+            <i class="fa-brands fa-linkedin-in text-sm"></i>
+          </a>
+          <a href="mailto:dennisbed1001@gmail.com" class="icon-link">
+            <i class="fa-brands fa-google text-sm"></i>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="icon-link">
+            <i class="fas fa-file-pdf text-sm"></i>
+          </a>
         </div>
       </div>
     </div>
