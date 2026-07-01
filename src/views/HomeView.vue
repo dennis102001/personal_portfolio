@@ -263,17 +263,17 @@
         
 
         <div class="flex gap-3">
-          <a href="https://github.com/dennis102001" target="_blank" rel="noopener noreferrer" class="icon-link">
+          <a href="https://github.com/dennis102001" target="_blank" rel="noopener noreferrer" class="icon-link" title="GitHub">
             <i class="fa-brands fa-github text-sm"></i>
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" class="icon-link">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="icon-link" title="LinkedIn">
             <i class="fa-brands fa-linkedin-in text-sm"></i>
           </a>
-          <a href="mailto:dennisbed1001@gmail.com" class="icon-link">
+          <a href="mailto:dennisbed1001@gmail.com" class="icon-link" title="Send me an email">
             <i class="fa-brands fa-google text-sm"></i>
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" class="icon-link">
-            <i class="fas fa-file-pdf text-sm"></i>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="icon-link" title="Download my resume (PDF)">
+            <i class="fas fa-file text-sm"></i>
           </a>
         </div>
       </div>
