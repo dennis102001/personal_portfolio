@@ -9,7 +9,7 @@ html {
 }
 
 .icon-link{
-    @apply rounded-full size-6 grid place-items-center text-blue-950 bg-blue-100 hover:text-white hover:bg-blue-950 hover:-translate-y-1 transition-all
+    @apply rounded-full size-8 grid place-items-center text-blue-950 bg-blue-100 hover:text-white hover:bg-blue-950 hover:-translate-y-1 transition-all
 }
 
 .highlight {

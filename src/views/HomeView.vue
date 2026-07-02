@@ -247,10 +247,8 @@
       </section>
 
       <!-- Footer -->
-      <div
-        class="mt-12 pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between gap-4 text-slate-500"
-      >
-        <div class="flex flex-col">
+      <div class="mt-12 pt-8 border-t border-slate-200 flex flex-col sm:flex-row justify-between gap-4 text-slate-500">
+        <div class="flex flex-col items-center sm:items-start">
           <div class="flex flex-row items-center">
             <i class="fa-regular fa-copyright text-xs mr-1 mt-[2px] text-blue-950"></i>
             <p class="text-slate-700">2026 · Dennis Bedaña</p>
@@ -261,8 +259,7 @@
           </div>
         </div>
         
-
-        <div class="flex gap-3">
+        <div class="flex gap-3 justify-center">
           <a href="mailto:dennisbed1001@gmail.com" class="icon-link" title="Send me an email">
             <i class="fa-solid fa-envelope text-sm"></i>
           </a>
