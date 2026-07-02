@@ -53,6 +53,11 @@
           <i class="fa-solid fa-phone-flip mr-1 text-blue-950"></i>
           +63 9513754423
         </a>
+
+        <a href="#" target="_blank" rel="noopener noreferrer" class="link" title="Download my resume (PDF)">
+            <i class="fas fa-file text-sm mr-1 text-blue-950"></i>
+            Resume
+          </a>
       </section>
 
       <div class="grid md:grid-cols-2 gap-10 mb-12">
@@ -258,11 +263,14 @@
         
 
         <div class="flex gap-3">
+          <a href="mailto:dennisbed1001@gmail.com" class="icon-link" title="Send me an email">
+            <i class="fa-solid fa-envelope text-sm"></i>
+          </a>
           <a href="https://github.com/dennis102001" target="_blank" rel="noopener noreferrer" class="icon-link" title="GitHub">
             <i class="fa-brands fa-github text-sm"></i>
           </a>
-          <a href="mailto:dennisbed1001@gmail.com" class="icon-link" title="Send me an email">
-            <i class="fa-brands fa-google text-sm"></i>
+          <a href="tel:+639513754423" class="icon-link" title="Call or text me">
+            <i class="fa-solid fa-phone-flip text-sm"></i>
           </a>
           <a href="#" target="_blank" rel="noopener noreferrer" class="icon-link" title="Download my resume (PDF)">
             <i class="fas fa-file text-sm"></i>
