@@ -49,11 +49,6 @@
           github.com/dennis102001
         </a>
 
-        <!-- <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" class="link">
-          <i class="fa-brands fa-linkedin-in mr-1 text-blue-950"></i>
-          linkedin.com/in/dennis
-        </a> -->
-
         <a href="tel:+639513754423" class="link">
           <i class="fa-solid fa-phone-flip mr-1 text-blue-950"></i>
           +63 9513754423
@@ -265,9 +260,6 @@
         <div class="flex gap-3">
           <a href="https://github.com/dennis102001" target="_blank" rel="noopener noreferrer" class="icon-link" title="GitHub">
             <i class="fa-brands fa-github text-sm"></i>
-          </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" class="icon-link" title="LinkedIn">
-            <i class="fa-brands fa-linkedin-in text-sm"></i>
           </a>
           <a href="mailto:dennisbed1001@gmail.com" class="icon-link" title="Send me an email">
             <i class="fa-brands fa-google text-sm"></i>
