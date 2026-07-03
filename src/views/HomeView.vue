@@ -150,7 +150,7 @@
 
               <div>
                 <h3 class="font-semibold text-slate-900">
-                  Intern <span class="font-normal text-slate-500">(2023–2024)</span>
+                  On-the-Job Trainee <span class="font-normal text-slate-500">(2023–2024)</span>
                 </h3>
                 <p class="text-slate-700">
                   Collaborated on the development of a field findings and promissory note management system using VB.NET, SQL Server, 
