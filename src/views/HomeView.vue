@@ -3,12 +3,12 @@
 
 <template>
   
-  <div class="min-h-screen bg-white md:bg-slate-50 pt-16 pb-10 sm:px-4 md:px-6 md:pt-20 md:pb-6">
+  <div class="min-h-screen bg-white md:bg-slate-50 pt-26 pb-10 sm:px-4 md:px-6 md:pt-32 md:pb-6">
     <div
       class="max-w-6xl mx-auto bg-white rounded-[2rem] md:shadow-xl p-8 md:p-10"
     >      
       <!-- Hero -->
-      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-10">
+      <section id="hero" class="scroll-mt-28 flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-10">
         <div>
           <h1 class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-slate-900 to-blue-900 bg-clip-text text-transparent">
             Dennis Bedaña
@@ -35,10 +35,10 @@
             Philippines · Junior Full-Stack Developer
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- Contact -->
-      <section id="contact" class="scroll-mt-20 flex flex-wrap gap-6 pb-8 mb-10 border-b border-slate-200 text-sm">
+      <section id="contact" class="scroll-mt-28 flex flex-wrap gap-6 pb-8 mb-10 border-b border-slate-200 text-sm">
         <a href="mailto:dennisbed1001@gmail.com" class="link" title="Send me an email">
           <i class="fa-solid fa-envelope mr-1 text-blue-950"></i>
           dennisbed1001@gmail.com
@@ -62,7 +62,7 @@
 
       <div class="grid md:grid-cols-2 gap-10 mb-12">
         <!-- About & Skills -->
-        <section id="about" class="scroll-mt-20 flex flex-col gap-10">
+        <section id="about" class="scroll-mt-28 flex flex-col gap-10">
 
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
@@ -128,7 +128,7 @@
         </section>
 
         <!-- Experiences, Education, & Certifications -->
-        <section id="experience" class="scroll-mt-20 flex flex-col gap-10">
+        <section id="experience" class="scroll-mt-28 flex flex-col gap-10">
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
               <i class="fa-solid fa-briefcase mr-1 text-blue-950"></i>
@@ -201,7 +201,7 @@
       </div>
 
       <!-- Projects -->
-      <section id="projects" class="mb-12 scroll-mt-20">
+      <section id="projects" class="mb-12 scroll-mt-28">
         <h2 class="uppercase font-semibold text-slate-600 mb-6">
           <i class="fa-solid fa-folder-open mr-1 text-blue-950"></i>
           Featured Projects
