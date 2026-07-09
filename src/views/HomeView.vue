@@ -54,7 +54,7 @@
           +63 9513754423
         </a>
 
-        <a href="#" target="_blank" rel="noopener noreferrer" class="link" title="Download my resume (PDF)">
+        <a href="resume/Dennis_Bedana_Resume.pdf" target="_blank" rel="noopener noreferrer" class="link" title="Download my resume (PDF)">
             <i class="fas fa-file text-sm mr-1 text-blue-950"></i>
             Resume
           </a>
@@ -269,7 +269,7 @@
           <a href="tel:+639513754423" class="icon-link" title="Call or text me">
             <i class="fa-solid fa-phone-flip text-sm"></i>
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" class="icon-link" title="Download my resume (PDF)">
+          <a href="/resume/Dennis_Bedana_Resume.pdf" target="_blank" rel="noopener noreferrer" class="icon-link" title="Download my resume (PDF)">
             <i class="fas fa-file text-sm"></i>
           </a>
         </div>
