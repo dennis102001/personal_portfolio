@@ -138,7 +138,7 @@
             <div class="space-y-4">
               <div>
                 <h3 class="font-semibold text-slate-900">
-                  Computer Programmer · 
+                  Contract Software Developer · 
                   <span class="font-normal">Part-time </span>
                   <span class="font-normal text-slate-500">(2024–2025)</span>
                 </h3>
@@ -204,7 +204,7 @@
       <section id="projects" class="mb-12 scroll-mt-28">
         <h2 class="uppercase font-semibold text-slate-600 mb-6">
           <i class="fa-solid fa-folder-open mr-1 text-blue-950"></i>
-          Featured Projects
+          Personal Projects
         </h2>
 
         <div class="grid lg:grid-cols-3 gap-6">
