@@ -1,4 +1,9 @@
-<script setup></script>
+<script setup>
+import { ref } from 'vue';
+
+const showSmallScreenMenu = ref(false)
+
+</script>
 
 <template>
   <div class="fixed top-6 w-full px-4 sm:px-8 md:px-12 ">
@@ -10,9 +15,9 @@
       <div class="flex items-center justify-between px-7 py-4">
         <a
           href="#hero"
-          class="text-lg font-bold tracking-tight text-slate-900"
+          class="text-lg font-bold tracking-wide text-slate-900"
         >
-          Dennis<span class="text-blue-700">.</span>
+          dennis<span class="text-blue-700">.</span>dev
         </a>
 
         <div class="hidden md:flex items-center gap-8">
@@ -29,13 +34,46 @@
           Resume
         </a>
 
-        <button class="md:hidden">
+        <button @click="showSmallScreenMenu = true " class="md:hidden cursor-pointer hover:bg-slate-100 px-2 rounded-md transition-all">
           <i class="fa-solid fa-bars"></i>
         </button>
       </div>
     </nav>
   </div>
   
+  <div v-if="showSmallScreenMenu" class="md:hidden fixed text-white bg-slate-800/90 backdrop-blur-sm inset-0 flex flex-col items-center justify-center">
+    <button @click="showSmallScreenMenu = false " class="absolute text-white z-50 top-2 right-4 cursor-pointer hover:bg-slate-600 px-2 rounded-md transition-all">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+      
+    <nav class="flex flex-col items-center">
+      <a
+        href="#hero"
+        @click="showSmallScreenMenu = false"
+        class="text-lg font-bold mb-6 tracking-wide"
+      >
+        dennis<span class="text-blue-400">.</span>dev
+      </a>
+
+      <div class="flex flex-col items-center gap-2 w-sm">
+        <a href="#about" @click="showSmallScreenMenu = false" class="hover:bg-slate-600 active:bg-slate-700 active:outline-1 hover:outline-1 transition px-4 py-2 w-full text-center rounded-md">About</a>
+        <a href="#projects" @click="showSmallScreenMenu = false" class="hover:bg-slate-600 active:bg-slate-700 active:outline-1 hover:outline-1 transition px-4 py-2 w-full text-center rounded-md">Projects</a>
+        <a href="#contact" @click="showSmallScreenMenu = false" class="hover:bg-slate-600 active:bg-slate-700 active:outline-1 hover:outline-1 transition px-4 py-2 w-full text-center rounded-md">Contact</a>
+        <a href="#experience" @click="showSmallScreenMenu = false" class="hover:bg-slate-600 active:bg-slate-700 active:outline-1 hover:outline-1 transition px-4 py-2 w-full text-center rounded-md">Experience</a>
+      </div>
+
+      <a
+        href="/resume/Dennis_Bedana_Resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer" 
+        title="Download my resume (PDF)"
+        @click="showSmallScreenMenu = false"
+        class="mt-6 rounded-full bg-white text-slate-900 px-6 py-2"
+      >
+        Resume
+      </a>
+    </nav>
+  </div>
 
   <main>
     <RouterView/>
