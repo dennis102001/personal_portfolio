@@ -39,17 +39,17 @@
 
       <!-- Contact -->
       <section id="contact" class="scroll-mt-20 flex flex-wrap gap-6 pb-8 mb-10 border-b border-slate-200 text-sm">
-        <a href="mailto:dennisbed1001@gmail.com" class="link">
+        <a href="mailto:dennisbed1001@gmail.com" class="link" title="Send me an email">
           <i class="fa-solid fa-envelope mr-1 text-blue-950"></i>
           dennisbed1001@gmail.com
         </a>
 
-        <a href="https://github.com/dennis102001" target="_blank" rel="noopener noreferrer" class="link">
+        <a href="https://github.com/dennis102001" target="_blank" rel="noopener noreferrer" class="link" title="GitHub">
           <i class="fa-brands fa-github mr-1 text-blue-950"></i>
           github.com/dennis102001
         </a>
 
-        <a href="tel:+639513754423" class="link">
+        <a href="tel:+639513754423" class="link" title="Call or text me">
           <i class="fa-solid fa-phone-flip mr-1 text-blue-950"></i>
           +63 9513754423
         </a>
