@@ -34,15 +34,16 @@ const showSmallScreenMenu = ref(false)
           Resume
         </a>
 
-        <button @click="showSmallScreenMenu = true " class="md:hidden cursor-pointer hover:bg-slate-100 px-2 rounded-md transition-all">
+        <button @click="showSmallScreenMenu = true " class="md:hidden cursor-pointer hover:bg-slate-100 px-3 py-1 rounded-md transition-all grid place-items-center">
           <i class="fa-solid fa-bars"></i>
         </button>
       </div>
     </nav>
   </div>
   
-  <div v-if="showSmallScreenMenu" class="md:hidden fixed text-white bg-slate-800/90 backdrop-blur-sm h-screen w-full flex flex-col items-center justify-center">
-    <button @click="showSmallScreenMenu = false " class="absolute text-white z-50 top-2 right-4 cursor-pointer hover:bg-slate-600 px-2 rounded-md transition-all">
+  <div v-if="showSmallScreenMenu" class="md:hidden fixed z-50 text-white bg-slate-800/90 backdrop-blur-sm h-screen w-full flex flex-col items-center justify-center">
+    
+    <button @click="showSmallScreenMenu = false " class="absolute text-white text-xl z-50 top-4 right-4 cursor-pointer hover:bg-slate-600 active:bg-slate-600 px-3 py-2 rounded-md transition-all grid place-items-center">
       <i class="fa-solid fa-xmark"></i>
     </button>
       
