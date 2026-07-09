@@ -41,7 +41,7 @@ const showSmallScreenMenu = ref(false)
     </nav>
   </div>
   
-  <div v-if="showSmallScreenMenu" class="md:hidden fixed text-white bg-slate-800/90 backdrop-blur-sm inset-0 flex flex-col items-center justify-center">
+  <div v-if="showSmallScreenMenu" class="md:hidden fixed text-white bg-slate-800/90 backdrop-blur-sm h-screen w-full flex flex-col items-center justify-center">
     <button @click="showSmallScreenMenu = false " class="absolute text-white z-50 top-2 right-4 cursor-pointer hover:bg-slate-600 px-2 rounded-md transition-all">
       <i class="fa-solid fa-xmark"></i>
     </button>
