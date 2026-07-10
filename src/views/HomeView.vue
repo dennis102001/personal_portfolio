@@ -1,12 +1,8 @@
-<script setup>
-</script>
-
 <template>
   
   <div class="min-h-screen bg-white md:bg-slate-50 pt-26 pb-10 sm:px-4 md:px-6 md:pt-32 md:pb-6">
-    <div
-      class="max-w-6xl mx-auto bg-white rounded-[2rem] md:shadow-xl p-8 md:p-10"
-    >      
+    <div class="max-w-6xl mx-auto bg-white rounded-[2rem] md:shadow-xl p-8 md:p-10">      
+      
       <!-- Hero -->
       <section id="hero" class="scroll-mt-28 flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-10">
         <div>
@@ -39,31 +35,51 @@
 
       <!-- Contact -->
       <section id="contact" class="scroll-mt-28 flex flex-wrap gap-6 pb-8 mb-10 border-b border-slate-200 text-sm">
-        <a href="mailto:dennisbed1001@gmail.com" class="link" title="Send me an email">
+        <a 
+          href="mailto:dennisbed1001@gmail.com" 
+          class="link" 
+          title="Send me an email"
+        >
           <i class="fa-solid fa-envelope mr-1 text-blue-950"></i>
           dennisbed1001@gmail.com
         </a>
 
-        <a href="https://github.com/dennis102001" target="_blank" rel="noopener noreferrer" class="link" title="GitHub">
+        <a 
+          href="https://github.com/dennis102001" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="link" 
+          title="GitHub"
+        >
           <i class="fa-brands fa-github mr-1 text-blue-950"></i>
           github.com/dennis102001
         </a>
 
-        <a href="tel:+639513754423" class="link" title="Call or text me">
+        <a 
+          href="tel:+639513754423" 
+          class="link" 
+          title="Call or text me"
+        >
           <i class="fa-solid fa-phone-flip mr-1 text-blue-950"></i>
           +63 9513754423
         </a>
 
-        <a href="resume/Dennis_Bedana_Resume.pdf" target="_blank" rel="noopener noreferrer" class="link" title="Download my resume (PDF)">
-            <i class="fas fa-file text-sm mr-1 text-blue-950"></i>
-            Resume
-          </a>
+        <a 
+          href="resume/Dennis_Bedana_Resume.pdf" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="link" 
+          title="Download my resume (PDF)"
+        >
+          <i class="fas fa-file text-sm mr-1 text-blue-950"></i>
+          Resume
+        </a>
       </section>
 
       <div class="grid md:grid-cols-2 gap-10 mb-12">
+
         <!-- About & Skills -->
         <section id="about" class="scroll-mt-28 flex flex-col gap-10">
-
           <div>
             <h2 class="uppercase font-semibold text-slate-600 mb-4">
               <i class="fa-solid fa-user-astronaut mr-1 text-blue-950"></i>
@@ -124,7 +140,6 @@
               </div>
             </div>
           </div>
-
         </section>
 
         <!-- Experiences, Education, & Certifications -->
@@ -175,7 +190,6 @@
                   Sultan Kudarat State University · Graduated 2024
                 </p>
               </div>
-
             </div>
           </div>
 
@@ -197,7 +211,6 @@
             </div>
           </div>
         </section>
-
       </div>
 
       <!-- Projects -->
@@ -232,7 +245,12 @@
             </div>
 
             <div class="flex gap-4 text-sm text-blue-900">
-              <a :href="project.link" target="_blank" rel="noopener noreferrer" class="link">
+              <a 
+                :href="project.link" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="link"
+              >
                 <i class="fa-brands fa-github mr-1 text-blue-950"></i>
                 Code
               </a>
@@ -260,16 +278,39 @@
         </div>
         
         <div class="flex gap-3 justify-center">
-          <a href="mailto:dennisbed1001@gmail.com" class="icon-link" title="Send me an email">
+          <a 
+            href="mailto:dennisbed1001@gmail.com" 
+            class="icon-link" 
+            title="Send me an email"
+          >
             <i class="fa-solid fa-envelope text-sm"></i>
           </a>
-          <a href="https://github.com/dennis102001" target="_blank" rel="noopener noreferrer" class="icon-link" title="GitHub">
+
+          <a 
+            href="https://github.com/dennis102001" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="icon-link" 
+            title="GitHub"
+          >
             <i class="fa-brands fa-github text-sm"></i>
           </a>
-          <a href="tel:+639513754423" class="icon-link" title="Call or text me">
+
+          <a 
+            href="tel:+639513754423" 
+            class="icon-link" 
+            title="Call or text me"
+          >
             <i class="fa-solid fa-phone-flip text-sm"></i>
           </a>
-          <a href="/resume/Dennis_Bedana_Resume.pdf" target="_blank" rel="noopener noreferrer" class="icon-link" title="Download my resume (PDF)">
+
+          <a 
+            href="/resume/Dennis_Bedana_Resume.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="icon-link" 
+            title="Download my resume (PDF)"
+          >
             <i class="fas fa-file text-sm"></i>
           </a>
         </div>
