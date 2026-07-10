@@ -6,7 +6,7 @@
       <!-- Hero -->
       <section id="hero" class="scroll-mt-28 flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-10">
         <div>
-          <h1 class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-slate-900 to-blue-900 bg-clip-text text-transparent">
+          <h1 class="text-4xl md:text-5xl font-bold gradient-text">
             Dennis Bedaña
           </h1>
 
@@ -365,3 +365,12 @@ const projects = [
   }
 ]
 </script>
+
+<style scoped>
+.gradient-text {
+  background: linear-gradient(to right, #0f172a, #1e3a8a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+</style>
