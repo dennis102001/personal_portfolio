@@ -52,7 +52,7 @@ const showSmallScreenMenu = ref(false)
         dennis<span class="text-blue-400">.</span>dev
       </a>
 
-      <div class="flex flex-col items-center gap-2 w-sm">
+      <div class="flex flex-col items-center gap-2 w-3xs ">
         <a href="#about" @click="showSmallScreenMenu = false" class="hover:bg-slate-600 active:bg-slate-700 active:outline-1 hover:outline-1 transition px-4 py-2 w-full text-center rounded-md">About</a>
         <a href="#projects" @click="showSmallScreenMenu = false" class="hover:bg-slate-600 active:bg-slate-700 active:outline-1 hover:outline-1 transition px-4 py-2 w-full text-center rounded-md">Projects</a>
         <a href="#contact" @click="showSmallScreenMenu = false" class="hover:bg-slate-600 active:bg-slate-700 active:outline-1 hover:outline-1 transition px-4 py-2 w-full text-center rounded-md">Contact</a>
