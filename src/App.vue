@@ -37,6 +37,14 @@ const showSmallScreenMenu = ref(false)
     </nav>
   </div>
   
+  <Transition
+    enter-from-class="translate-x-20 opacity-0"
+    enter-active-class="ease-in-out duration-400"
+    enter-to-class="translate-0 opacity-100"
+    leave-from-class="translate-0 opacity-100"
+    leave-active-class="ease-in-out duration-400"
+    leave-to-class="translate-x-20 opacity-0"
+  >
   <div v-if="showSmallScreenMenu" class="md:hidden overflow-auto fixed z-50 text-white bg-slate-800/90 backdrop-blur-sm h-screen w-full grid place-items-center">
     
     <button @click="showSmallScreenMenu = false " class="absolute text-white text-xl z-50 top-4 right-4 cursor-pointer hover:bg-slate-600 active:bg-slate-600 px-3 py-2 rounded-md transition-all grid place-items-center">
@@ -71,6 +79,7 @@ const showSmallScreenMenu = ref(false)
       </a>
     </nav>
   </div>
+  </Transition>
 
   <main>
     <RouterView/>
