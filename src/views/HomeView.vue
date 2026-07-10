@@ -1,6 +1,6 @@
 <template>
   
-  <div class="min-h-screen bg-white md:bg-slate-50 pt-26 pb-10 sm:px-4 md:px-6 md:pt-32 md:pb-6">
+  <div class="h-screen overflow-auto scroll-smooth bg-white md:bg-slate-50 pt-26 pb-10 sm:px-4 md:px-6 md:pt-32 md:pb-6">
     <div class="max-w-6xl mx-auto bg-white rounded-[2rem] md:shadow-xl p-8 md:p-10">      
       
       <!-- Hero -->

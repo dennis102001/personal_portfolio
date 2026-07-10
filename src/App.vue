@@ -37,13 +37,13 @@ const showSmallScreenMenu = ref(false)
     </nav>
   </div>
   
-  <div v-if="showSmallScreenMenu" class="md:hidden fixed z-50 text-white bg-slate-800/90 backdrop-blur-sm h-screen w-full flex flex-col items-center justify-center">
+  <div v-if="showSmallScreenMenu" class="md:hidden overflow-auto fixed z-50 text-white bg-slate-800/90 backdrop-blur-sm h-screen w-full grid place-items-center">
     
     <button @click="showSmallScreenMenu = false " class="absolute text-white text-xl z-50 top-4 right-4 cursor-pointer hover:bg-slate-600 active:bg-slate-600 px-3 py-2 rounded-md transition-all grid place-items-center">
       <i class="fa-solid fa-xmark"></i>
     </button>
       
-    <nav class="flex flex-col items-center">
+    <nav class="flex flex-col items-center py-4">
       <a
         href="#hero"
         @click="showSmallScreenMenu = false"
