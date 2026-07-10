@@ -39,10 +39,10 @@ const showSmallScreenMenu = ref(false)
   
   <Transition
     enter-from-class="translate-x-20 opacity-0"
-    enter-active-class="ease-in-out duration-400"
+    enter-active-class="ease-in-out duration-300"
     enter-to-class="translate-0 opacity-100"
     leave-from-class="translate-0 opacity-100"
-    leave-active-class="ease-in-out duration-400"
+    leave-active-class="ease-in-out duration-200"
     leave-to-class="translate-x-20 opacity-0"
   >
   <div v-if="showSmallScreenMenu" class="md:hidden overflow-auto fixed z-50 text-white bg-slate-800/90 backdrop-blur-sm h-screen w-full grid place-items-center">
